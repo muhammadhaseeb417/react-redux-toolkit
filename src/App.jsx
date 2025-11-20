@@ -1,9 +1,11 @@
 import products from "./products.json";
 import ProductCard from "./components/ProductCard";
+import Cart from "./components/cart";
 
 function App() {
   return (
     <>
+      <Cart />
       <h1>React Products List</h1>
 
       <div style={{
