@@ -12,25 +12,25 @@
         "description": "RGB programmable gaming mouse"
     },
     {
-        "id": 1,
+        "id": 3,
         "name": "Wireless Headphones",
         "price": 59.99,
         "description": "Bluetooth over-ear headphones"
     },
     {
-        "id": 2,
+        "id": 4,
         "name": "Gaming Mouse",
         "price": 29.99,
         "description": "RGB programmable gaming mouse"
     },
     {
-        "id": 1,
+        "id": 5,
         "name": "Wireless Headphones",
         "price": 59.99,
         "description": "Bluetooth over-ear headphones"
     },
     {
-        "id": 2,
+        "id": 6,
         "name": "Gaming Mouse",
         "price": 29.99,
         "description": "RGB programmable gaming mouse"

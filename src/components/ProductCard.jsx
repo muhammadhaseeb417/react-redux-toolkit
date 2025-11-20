@@ -1,4 +1,9 @@
+import { useDispatch } from "react-redux";
+import { addItems } from "../redux/slices/cart-slice";
+
 function ProductCard({ name, price, description }) {
+    const dispatch = useDispatch(addItems)
+
     return (
         <div style={{
             border: "1px solid #ccc",
@@ -10,7 +15,7 @@ function ProductCard({ name, price, description }) {
             <h2>{name}</h2>
             <p>{description}</p>
             <h3>${price}</h3>
-            <button>Add to Cart</button>
+            <button onClick={e => dispatch(addItems({ name: name, description: description, price: price }))} >Add to Cart</button>
         </div>
     );
 }
